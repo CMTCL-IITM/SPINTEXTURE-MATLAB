@@ -1,3 +1,4 @@
+% desigh the k-points in 2D kplane 
 clear
 clc
 %% read POSCAR
@@ -18,7 +19,7 @@ opts.Interpreter = 'tex';
 opts.Resize = 'on';
 x = inputdlg({'origin','k-range','plane','npoints'},...
               'Input cart', [1 50; 1 50; 1 7;1 50],{'0 0 0','0.2 0.2','xy','21 21'},opts); 
-origin = [str2num(x{1})];krange = [str2num(x{2})];plane = x{3};npoint = x{4};
+origin = [str2num(x{1})];krange = [str2num(x{2})];plane = x{3};npoint = str2num(x{4});
 
 deltax = 2*krange(1)/(npoint(1)-1);
 deltay = 2*krange(2)/(npoint(2)-1);
@@ -44,7 +45,7 @@ end
 % To fractional and move to the origin
 kpts = [];
 for j = 1: length(coor)
-    kpts = [kpts;origin + sum(recip.*transpose(coor(j,:)))];
+    kpts = [kpts;origin + sum(recip.*transpose(coor(j,:))),1];
 end
 
 save('2D_kmesh.dat','kpts','-ascii');
