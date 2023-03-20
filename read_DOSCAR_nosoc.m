@@ -1,3 +1,7 @@
+% Plot partial and total density of states
+% Authors: Mayank Gupta and B.R.K.Nanda
+% Contact: nandab@iitm.ac.in
+%%
 clear
 clc
 tic
