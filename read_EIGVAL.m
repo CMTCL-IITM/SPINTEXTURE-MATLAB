@@ -1,4 +1,6 @@
-%% read EIGVAL file.
+%% read EIGVAL file and plot the band structure.
+% Authors: Mayank Gupta and B.R.K.Nanda
+% Contact: nandab@iitm.ac.in
 clear
 clc
 tic
