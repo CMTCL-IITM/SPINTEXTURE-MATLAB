@@ -1,4 +1,6 @@
-% desigh the k-points in 2D kplane 
+% design the k-points in 2D kplane 
+% Authors: Mayank Gupta and B.R.K.Nanda
+% Contact: nandab@iitm.ac.in
 clear
 clc
 %% read POSCAR
