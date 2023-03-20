@@ -1,3 +1,7 @@
+% Design the k-path 
+% Authors: Mayank Gupta and B.R.K.Nanda
+% Contact: nandab@iitm.ac.in
+%%
 clear
 clc
 
