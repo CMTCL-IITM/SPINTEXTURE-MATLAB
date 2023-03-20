@@ -1,4 +1,6 @@
 %% read data from procar_matlab. Code for total and atomwise character is same.
+% Authors: Mayank Gupta and B.R.K.Nanda
+% Contact: nandab@iitm.ac.in
 clear
 clc
 tic
