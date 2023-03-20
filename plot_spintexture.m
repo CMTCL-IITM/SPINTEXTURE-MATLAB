@@ -87,8 +87,8 @@ set(axes1,'FontSize',20,'LineWidth',3,'TickLength',[0.01 0.01]);
 set(gcf,'position',[0,0,700,800])
 box(axes1,'on');
 hold(axes1,'off');
-xlabel('S_x')
-ylabel('S_y')
+xlabel('K_x')
+ylabel('K_y')
 
 toc
 
