@@ -1,3 +1,6 @@
+% read DOSCAR and plot total and partial density of states.
+% Authors: Mayank Gupta and B.R.K.Nanda
+% Contact: nandab@iitm.ac.in
 clear
 clc
 tic
